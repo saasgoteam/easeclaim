@@ -1,0 +1,87 @@
+/* Curve Slider CSS Strat */
+
+.curve-slider{
+    background-image: url('../img/images/svg/curve-slide.svg');
+    width: 100%;
+  stroke-width: 3px;
+  stroke: #000;
+  background-repeat: no-repeat;
+  background-size: contain;
+  }
+  .slide-img img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide-text{
+    width: 336px;
+    padding: 19px 15px 20px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border-right: 8px solid rgba(47, 48, 69, 0.40);
+    border-bottom: 8px solid rgba(47, 48, 69, 0.40);
+    background: #2F3045;
+    
+  }
+  
+  .first-slider .slide-text {
+    height: 60px;
+    display: flex;
+    width: 260px;
+    padding: 22px 11px 22px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border-right: 8px solid rgba(47, 48, 69, 0.40);
+    border-bottom: 8px solid rgba(47, 48, 69, 0.40);
+    background: #2F3045;
+  }
+   .slide-text p{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .slide-text h3{
+    display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  }
+  .curve-swiper-slider {
+    padding-bottom: 70px;
+  }
+
+  .second-slider .slide-text {
+    position: relative;
+    top: 100px;
+    left: -90px;
+  }
+  .second-slider .slide-img {
+    /* position: relative;
+    top: -40%; */
+  }
+  .d-flex.second-slider {
+    position: relative;
+    left: 80px;
+    top: -30px;
+    display: flex;
+    justify-content: left;
+  }
+  .first-slider {
+    position: relative;
+    left: 20px;
+    top: 30px;
+  }
+
+
+  /* Curve Slider CSS End */

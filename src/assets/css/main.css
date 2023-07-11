@@ -1,0 +1,1463 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=MuseoModerno:ital,wght@0,400;0,700;1,400&display=swap');
+.navbar a, .navbar a:focus {
+    white-space: nowrap;
+    transition: 0.3s;
+    border-radius: 7px;
+    border: 1px solid #FB7369;
+    display: flex;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-1, #FB7369);
+    text-align: center;
+    font-size: 16px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .navbar a:hover {
+    background-color: #FB7369;
+    color: #FFF !important;
+  }
+  .navbar .getstarted:hover{
+    border: 1px solid #FB7369;
+    background-color: #FFF !important;
+    color: var(--primary-1, #FB7369) !important;
+  }
+  .navbar .getstarted, .navbar .getstarted:focus {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    border-radius: 7px;
+    border: 1px solid #FB7369;
+    background: var(--primary-1, #FB7369);
+    color: var(--fb-7369, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  section {
+    padding: 90px 0px 0px 0px;
+  }
+  .carousel-indicators li {
+    background-color: #000;
+  }
+  .header {
+    transition: all 0.5s;
+    z-index: 1032;
+    padding: 20px 0;
+    background: #fff;
+  }
+  .banner .para-text-wel{
+
+    color: #2F3045;
+    font-size: 29px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .banner h1{
+    color: #476BC7;
+    font-size: 85px;
+    font-family: MuseoModerno;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .banner h1 .claim{
+    color: #FB7369;
+    font-size: 85px;
+    font-family: MuseoModerno;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .banner h2{
+    display: flex;
+width: 550px;
+flex-direction: column;
+flex-shrink: 0;
+    color: #2F3045;
+    font-size: 34px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .hero .btn-get-started {
+    box-shadow: 4px 4px 0px 2px rgba(71, 107, 199,0.20000000298023224);
+    border-radius: 7px;
+    background: var(--primary-2, #476BC7);
+  }
+
+ .banner .text-lg-start.get-start-btn {
+    width: 271px;
+    height: 88px;
+    text-align: left;
+  }
+ .banner .test-banner{
+    background: url(../img/images/vector-bg.png) no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    background-position-y: center;
+ }
+ h1.statment {
+  font-family: 'Mulish';
+}
+ /* .banner .vector-bg .frame{
+    display: inline-flex;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.20);
+    margin: 0px 100px 0px 0px;
+ } */
+ .banner .vector-bg .frame span{
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+line-height: 24px;
+
+
+ }
+ .banner .vector-bg h2 {
+    display: flex;
+    width: 606px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 50px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 30px 60px;
+  }
+  .banner .vector-bg h3 {
+    display: flex;
+    width: 495px;
+    flex-direction: column;
+    color: #FFF;
+    font-size: 45px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 30px 60px 20px 60px;
+  }
+  .banner .vector-bg h3.experts-insurance {
+    
+    display: flex;
+    width: 481px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  } 
+  .banner .vector-bg h4.experts-insurance-sub {
+    display: flex;
+    width: 461px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 10px 60px;
+  }
+  .banner .vector-bg .frame {
+    display: inline-flex;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.20);
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .banner .flexible-finance-sub{
+    display: flex;
+width: 591px;
+flex-direction: column;
+flex-shrink: 0;
+color: #2F3045;
+font-family: Mulish;
+font-size: 29px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 50px;
+  }
+  .banner .para-text-wel.flexible-finance{
+    display: flex;
+width: 558px;
+flex-direction: column;
+flex-shrink: 0;
+color: #2F3045;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 25px;
+margin-bottom: 16px;
+  }
+  .get-white-bg .btn-get-started-white {
+      width: 155px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background: #FFF;
+  }
+  .text-lg-start.get-white-bg{
+    margin-left: 60px;
+  }
+  .text-lg-start.get-white-bg span,.text-lg-start.get-white-bg a {
+  color: var(--primary-1, #FB7369);
+  }
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+
+
+  .btn-get-started-white{
+    box-shadow: 4px 4px 0px 2px rgba(255, 255, 255,0.5);
+    border-right:1px dotted #fff 0.5;
+    border-bottom: 1px dotted #fff 0.5;
+  }
+  .card-layout h3{
+    display: flex;
+    width: 242px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #2F3045;
+    font-size: 16px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .card-layout p{
+    display: flex;
+    width: 242px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #2F3045;
+    font-size: 13px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  /* .card-layout img{
+    width: 66px;
+    height: 62px;
+  } */
+  .row.card-layout {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 8px;
+}
+
+  .card-body-layout{
+    display: flex;
+padding: 15px;
+padding-right: 20px;
+align-items: flex-start;
+gap: 25px;
+border-radius: 20px;
+border-right: 8px solid rgba(47, 48, 69, 0.60);
+border-bottom: 8px solid rgba(47, 48, 69, 0.60);
+background: #FFF;
+margin: auto 15px;
+width: 370px !important;
+  }
+.client-header p {
+    color: #2F3045;
+    text-align: center;
+    font-size: 22px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+.unlock-row .animation{
+  animation: rotate-img 40s linear infinite;
+}
+.unlock-row .light-circle.animation{
+  animation: rotate-img 40s linear infinite;
+}
+@keyframes  rotate-img{
+      
+  0% {
+  transform: translate(-50%,-50%) rotate(0deg);
+  }
+
+  100% {
+  transform: translate(-50%,-50%) rotate(1turn);
+  }
+
+}
+.animation-img .img::before{
+background-image: url('../img/images/circle.png');
+}
+.animation-img ::after{
+  background-image: url('../img/images/unlock-benifits.png');
+}
+  .unlock-row h2{
+    color: #2F3045;
+text-align: center;
+font-size: 75px;
+font-family: Mulish;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+  }
+  .unlock-row{
+    display: flex;
+align-items: center;
+
+  }
+  section.unlock-benift {
+    padding-bottom: 40px;
+}
+  img.animation {
+    -webkit-animation: rotate-288e7948 40s linear infinite;
+    animation: rotate-288e7948 40s linear infinite;
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    -webkit-transform: translate(-50%,-50%) rotate(10deg);
+    transform: translate(-50%,-50%) rotate(10deg);
+    /* width: 413px; */
+  }
+  img.light-circle.animation{
+    -webkit-animation: rotate-288e7948 40s linear infinite;
+    animation: rotate-288e7948 40s linear infinite;
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    -webkit-transform: translate(-50%,-50%) rotate(10deg);
+    transform: translate(-50%,-50%) rotate(10deg);
+    /* width: 500px; */
+  }
+  img.benifit {
+    position: relative;
+    top: 35px;
+    left: 80px;
+  }
+  
+  .unlock-row h2 span{
+    color: #476BC7;
+  }
+
+ section.unlock-benift .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+  
+  @media (max-width: 991px) {
+   section.unlock-benift {
+      height: calc(100vh - 72px);
+    }
+  
+   section.unlock-benift .animated {
+      animation: none;
+    }
+  
+   section.unlock-benift .hero-img {
+      text-align: center;
+    }
+  
+   section.unlock-benift .hero-img img {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+   section.unlock-benift h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+   section.unlock-benift h2 {
+    font-size: 30px;
+    line-height: 24px;
+    }
+  
+   section.unlock-benift .hero-img img {
+      width: 70%;
+    }
+  }
+  
+  @media (max-width: 575px) {
+   section.unlock-benift .hero-img img {
+      width: 80%;
+    }
+  }
+  
+  @media (max-height: 600px) {
+   section.unlock-benift {
+      height: 120vh;
+    }
+  }
+  
+  @keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+  
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .animation-none{
+    -webkit-animation: rotate-288e7948 40s linear infinite;
+    animation: rotate-288e7948 40s linear infinite;
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    -webkit-transform: translate(-50%,-50%) rotate(10deg);
+    transform: translate(-50%,-50%) rotate(0deg);
+  }
+
+  .section-header p {
+    color: #2F3045;
+    text-align: center;
+    font-family: Mulish;
+    text-transform: capitalize;
+  }
+  .section-header h2 {
+  color: #2F3045;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+  }
+
+.card-slider {
+  background-image: url('../img/images/Leaf.png');
+  background-repeat: no-repeat;
+  background-size: 11%;
+}
+
+/* Streamline CSS Start */
+
+
+.streamline .section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 65px;
+}
+
+.stream-text {
+  color: #2F3045;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.stream-img img {
+  width: 100px;
+  height: 100px;
+}
+.right-element li {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.right-element li.opacity-5{
+  opacity: 0.5;
+}
+.right-element li.opacity-7{
+  opacity: 0.75;
+}
+.right-element li.opacity-8{
+  opacity: 0.800000011920929;
+}
+
+.first-element {
+  position: relative;
+  left: -40%;
+}
+.third-element {
+  position: relative;
+  left: 15%;
+}
+.five-element {
+  position: relative;
+  left: -35%;
+}
+.six-element {
+  position: relative;
+  left: -55%;
+}
+.right-element {
+  position: relative;
+  left: 35%;
+}
+.left-img {
+  margin-top: 75px;
+}
+
+/* End Streamline CSS */
+
+
+/* Curve Slider CSS Strat */
+
+.curve-slider{
+  background-image: url('../img/images/svg/curve-slide.svg');
+  width: 100%;
+stroke-width: 3px;
+stroke: #000;
+background-repeat: no-repeat;
+background-size: contain;
+}
+.slide-img img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-text{
+  width: 336px;
+  padding: 19px 15px 20px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border-right: 8px solid rgba(47, 48, 69, 0.40);
+  border-bottom: 8px solid rgba(47, 48, 69, 0.40);
+  background: #2F3045;
+  
+}
+
+.first-slider .slide-text  {
+  height: 60px;
+}
+ .slide-text p{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.slide-text h3{
+  display: flex;
+flex-direction: column;
+align-self: stretch;
+color: #FFF;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+}
+.curve-swiper-slider {
+  padding-bottom: 70px;
+}
+.first-slider {
+
+  position: relative;
+  left: 20%;
+  top: 30%;
+}
+.second-slider .slide-text {
+  position: relative;
+  top: 10%;
+  left: -15%;
+}
+.second-slider .slide-img {
+  position: relative;
+  top: -40%;
+}
+.d-flex.second-slider {
+  position: relative;
+  left: 20%;
+}
+
+/* Curve Slider CSS End */
+
+
+.simple-step{
+  background-image: url('../img/images/step-bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:100%;
+  height: 66.473px;
+}
+.about .simple-step-gap {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.simple-step-gap h3{
+  color: #2F3045;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.simple-step-gap h3 span{
+  color: #476BC7;
+}
+.step-row {
+  align-items: center;
+  align-self: stretch;
+}
+
+.step-icon{
+  width: 125px;
+height: 125px;
+}
+.step-content h4{
+  display: flex;
+
+flex-direction: column;
+justify-content: center;
+color: #2F3045;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.step-content p{
+
+  display: flex;
+flex-direction: column;
+align-self: stretch;
+color: #2F3045;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+
+.step-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 19px;
+  flex: 1 0 0;
+}
+
+
+/* Start Claim Settled CSS  */
+
+.claim-settled{
+  height: 392px;
+  padding: 165px 0;
+}
+
+.claim-settled-bg {
+  background-image: url('../img/images/claim-settled.png');
+  background-repeat: no-repeat;
+  height: 338px;
+  background-size: contain;
+  position: relative;
+  top: -112px;
+}
+
+.claim-settled-body {
+  height: 264px;
+  background: #EBF1FF;
+}
+.row.claim-settled-content {
+  /* display: inline-flex; */
+  height: 226px;
+  /* padding: 0px 88px 0px 173px; */
+  justify-content: flex-end;
+  align-items: center;
+  background: #EBF1FF;
+}
+
+.row.claim-settled-content .content {
+  color: #000;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+.row.claim-settled-content .content span {
+  color : #476BC7;
+}
+
+.claim-now-btn {
+  border-radius: 7px;
+  background: var(--primary-2, #476BC7);
+  width: 155px;
+  height: 55px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  box-shadow: -4px 4px 0px 2px rgba(71, 107, 199,0.20000000298023224);
+}
+.btn-claim-now span{
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+/* End Claim Settled CSS  */
+
+
+.netword-of-hospital {
+
+  height: 612px;
+}
+.network-bg {
+  height: 606px;
+  background-image:url('../img/images/network-bg.png');
+  background-color: #FDB9B4;
+}
+
+.network-content {
+  /* width: 861px;
+  height: 252px; */
+  border-radius: 20px;
+  border-right: 8px solid rgba(47, 48, 69, 0.40);
+  border-bottom: 8px solid rgba(47, 48, 69, 0.40);
+  background: #FFF;
+  position: relative;
+  top: 25%;
+  left: 100px;
+  z-index: 200;
+  padding: 40px;
+}
+.content-network {
+  display: flex;
+  /* width: 451px; */
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.content-network h3 {
+  color: #000;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.content-network p{
+  color: #2F3045;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.btn-grid {
+  width: 272.219px;
+  height: 61px;
+}
+.btn-view-hospitals {
+  width: 265px;
+  height: 55px;
+  border-radius: 7px;
+  background: var(--primary-1, #FB7369);
+}
+.view-hospitals-dot {
+  width: 265px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  border: 2px dashed var(--primary-1, #FB7369);
+  opacity: 0.5;
+  position: relative;
+  top: -75%;
+  right: 4%;
+}
+.btn-view-hospitals span{
+  color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+}
+.btn-col {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+.network-content .row {
+  top: -15px;
+  position: relative;
+}
+.clients .clients-slider .swiper-slide img {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+
+.trusted-hospital {
+  background-image: url('../img/images/trusted-bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.center-content {
+  display: inline-flex;
+  padding: 70px 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  border-top: 1px solid rgba(47, 48, 69, 0.60);
+  border-right: 8px solid rgba(47, 48, 69, 0.60);
+  border-bottom: 8px solid rgba(47, 48, 69, 0.60);
+  border-left: 1px solid rgba(47, 48, 69, 0.60);
+  background: #FFF;
+  left: 125px;
+  position: relative;
+}
+.center-content h3{
+
+  flex-direction: column;
+  justify-content: center;
+  color: #2F3045;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+}
+.center-content h3 span{
+  font-weight: 700;
+  font-size: 40px;
+line-height: 70px;
+}
+.flite-img {
+  width: 136px;
+  height: 103px;
+  background: url('../img/images/flite-bg.png');
+  background-repeat: no-repeat;
+  position: relative;
+  top: 21px;
+  left: 41%;
+  z-index: 500;
+}
+
+
+
+.join-us-dot-border {
+  display: flex;
+  /* width: 657px; */
+  padding: 32px 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 30px;
+  border: 3px dashed var(--primary-2, #476BC7);
+}
+.info-grid {
+  margin-top: 30px;
+  align-items: flex-start;
+  /* gap: 62px; */
+  /* justify-content: center; */
+}
+.contact-link {
+  display: flex;
+align-items: center;
+gap: 15px;
+}
+.contact-link span {
+  color: #2F3045;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.join-us .row {
+  display: flex;
+  align-items: center;
+}
+
+.faq .section-header p {
+  text-align: center;
+  color: #2F3045;
+  font-family: Mulish;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.faq .section-header p::before {
+  background-image: url('../img/images/faq-leaf.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: right;
+  
+}
+
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+  background: #EBF1FF;
+  color: #2F3045 !important;
+}
+.accordion-header {
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #2F3045;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: #EBF1FF;
+}
+.accordion-flush .accordion-item {
+  border-right: 0;
+  border-left: 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #EBF1FF;
+}
+.faq .accordion-body {
+
+  flex-direction: column;
+  color: #2F3045;
+  font-family: Mulish;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.see-more-dotted {
+  width: 155px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  border: 2px dashed var(--primary-2, #476BC7);
+  opacity: 0.5;
+  position: relative;
+  right: 8px;
+  bottom: 46px;
+}
+.see-more {
+  width: 162px;
+  height: 63px;
+
+}
+.btn-see-more {
+  width: 155px;
+  height: 55px;
+  border-radius: 7px;
+  background: var(--primary-2, #476BC7);
+  display: flex;
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  z-index: 100;
+position: sticky;
+}
+
+.see-faq-btn {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+margin: 10px;
+}
+
+.footer .footer-top .footer-info p {
+  color: #D9D9D9;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 30px auto;
+}
+.footer .footer-top h4 {
+  text-transform: capitalize;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 179%;
+  padding-bottom: 0;
+margin-bottom: 30px;
+}
+.footer .footer-top .footer-links ul a {
+  color: #D9D9D9;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 179%;
+}
+.footer .footer-top .footer-contact p {
+  color: #D9D9D9;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 179%;
+  text-align: left;
+  
+}
+.footer .footer-top .social-links a {
+
+  color: #D9D9D9;
+  font-size: 25px;
+
+}
+.footer .footer-top .container.border-top .d-flex {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.footer .copyright {
+  color: #D9D9D9;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer-te a {
+  color: #D9D9D9;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer .footer-top .footer-links ul li {
+  padding: 5px 0;
+}
+ 
+.footer h4::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -6px;
+  left: 0;
+  background-color: #FB7369;
+  visibility: visible;
+  width: 20px !important;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+
+.claim-settled-body img {
+  position: relative;
+  top: -33%;
+}
+.row.claim-settled-body .content {
+  color: #000;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.section-header span {
+  color: #476BC7;
+}
+.our-team {
+  /* width: 1440px; */
+  height: 695px;
+  background: #EBF1FF;
+  background-image: url('../img/images/our-teams-curve.png');
+  background-repeat: no-repeat;
+background-position: center;
+}
+.teams-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+section.join-us {
+  padding-bottom: 103px;
+}
+.owl-carousel-slider-mob{
+  display: none !important;
+}
+.owl-carousel-slider{
+  display: block !important;
+}
+
+
+/* Start Review CSS */
+
+.review-body {
+  width: 378px;
+  height: 311px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border-right: 8px solid rgba(47, 48, 69, 0.60);
+  border-bottom: 8px solid rgba(47, 48, 69, 0.60);
+  background: #FFF;
+  box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.16);
+  padding: 10px;
+  
+}
+.review-content-head {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.review-content-head img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.review-content-head .review-name {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+.review-content-head .review-name h4{
+  color: #2F3045;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.review-content-head .review-name p{
+  color: var(--primary-2, #476BC7);
+  font-family: Mulish;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.review-body .review-content h3{
+  display: flex;
+  width: 318px;
+  height: 29px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: var(--primary-2, #476BC7);
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.review-body .review-content p {
+  display: flex;
+  width: 318px;
+  height: 149px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #2F3045;
+  font-family: Mulish;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.review-content{
+  display: flex;
+
+gap: 5px;
+flex-shrink: 0;
+flex-wrap: wrap;
+justify-content: center;
+}
+.review-head h3 {
+  color: #2F3045;
+  text-align: right;
+  font-family: Mulish;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.review-head h3 span{
+  color: #476BC7;
+}
+.owl-review-slider .review-body.slick-slide {
+  text-align: center;
+width: 350px !important;
+}
+.review-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  /* gap: 68px; */
+  align-content: space-between;
+  margin-bottom: 50px;
+}
+.arrow-row{
+  display: inline-flex;
+align-items: center;
+gap: 15px;
+}
+.review-body.slick-slide.slick-cloned.slick-center{
+  width: 266px;
+height: 219px;
+}
+.reviews {
+  display: block;
+}
+.claim-settled-test {
+  padding-top: 160px;
+}
+/* End Review CSS */
+
+
+.text-right.right-img {
+  position: relative;
+  top: 75px;
+}
+.center-content {
+  padding: 59px 120px;
+}
+
+.left-img {
+  margin-top: 0;
+}
+.trusted-hospital {
+  background-size: cover;
+}
+
+.join-us-dot-border h3 {
+  color: #2F3045;
+  font-family: Mulish;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.join-us-dot-border h4 {
+  color: #2F3045;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.join-us-dot-border h3 span {
+  color:#476BC7;
+}
+.join-us-dot-border h4 span {
+  color:#476BC7;
+}
+
+.owl-review-slider-mob{
+  display: none !important;
+}
+.owl-review-slider{
+  display: block !important;
+}
+
+/* .teams-body img:hover {
+  transform: scale(1.08);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+} */
+
+#team-img path{ 
+  fill:#FFF;
+}
+#team-img-sirinivas:hover, #team-img-adesh:hover, #team-img-surendra:hover{
+  fill:#476BC7;
+}
+
+/* path {
+  fill: #fff;
+}
+path:hover {
+  fill: #476BC7;
+ 
+} */
+.teams-body img {
+  position: absolute;
+  bottom: 123px;
+  height:140px;
+}
+#hero .carousel-item {
+  height: 600px;
+}
+
+.teams-body .content {
+  display: flex;
+  width: 269px;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.teams-body .content h3{
+color: #2F3045;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+.teams-body .content p{
+  color: #2F3045;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+.team-content{
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: 15px;
+}
+.team-content a{
+  color: var(--primary-2, #476BC7);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 27px;
+}
+
+.trusted-hospital {
+  background-attachment: fixed;
+  background-size: auto;
+  width: 100%;
+  height: auto;
+}
+#faqlist1  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+#faqlist2 {
+  margin-top: 20px;
+}
+
+.btn-text{
+display: inline-flex;
+padding: 5px 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 5px;
+background: rgba(71, 107, 199, 0.20);
+width: 120px;
+}
+
+.btn-text span{
+  color: var(--primary-2, #476BC7);
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 24px;
+}
+.banner-text p{
+  display: flex;
+ 
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #2F3045;
+  font-family: Mulish;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.insurance-heading {
+  display: flex;
+flex-direction: column;
+flex-shrink: 0;
+color: #2F3045;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.insurance-heading.aos-init.aos-animate {
+  margin-bottom: 34px;
+}
+
+.col-lg-6.d-flex.flex-column.justify-content-center.test-banner {
+  width: 595px;
+  height: 521px;
+}

@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=MuseoModerno:ital,wght@0,400;0,700;1,400&display=swap');
+@media screen and (min-width:360px) and (max-width: 768px) {
+    .carousel-indicators {
+    bottom: -80px;
+    }
+    .banner h2 {
+    display: flex;
+    width: 100%;
+    }
+    .banner h1 , .banner h1.statment, .banner h1 .claim {
+      font-size: 50px !important;
+    }
+
+    .banner .vector-bg h2 {
+        width: 315px;
+        margin: 9px 43px 4px 30px;
+        text-align: left;
+        font-size: 25px;
+      }
+   
+      .banner .vector-bg h3 {
+        width: 255px;
+        margin: 15px 0px 0px 30px;
+        text-align: left;
+        font-size: 25px;
+      }
+
+
+      .get-white-bg .btn-get-started-white {
+        width: 144px;
+        height: 37px;
+        margin-left: 27px;
+        margin-bottom: 10px;
+      }
+      .text-lg-start.get-white-bg {
+        margin-left: 0px;
+        margin-bottom: 10px;
+      }
+      .banner .vector-bg .frame {
+        margin-left: 30px;
+        margin-right: 202px;
+        margin-top: 61px;
+        margin-bottom: 0px;
+      }
+      .banner .test-banner {
+        background-position-x: left;
+      }
+    
+      .col-lg-6.d-flex.flex-column.justify-content-center.banner-text {
+        text-align: left;
+      }
+
+/* Start Streamline CSS */
+      .right-element li {
+        position: inherit;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        align-self: stretch;
+        
+      }
+      .right-element {
+        position: initial;
+        left: 35%;
+      }
+      .left-img {
+        margin-top: 0;
+      }
+
+      .stream-text {
+        display: flex;
+        flex-direction: column;
+        flex: 1 0 0;
+        color: #2F3045;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+      }
+      .stream-img img {
+        width: 93px;
+        height: 87px;
+        flex-shrink: 0;
+      }
+      .right-element li.opacity-5{
+        opacity: 1;
+      }
+      .right-element li.opacity-7{
+        opacity: 1;
+      }
+      .right-element li.opacity-8{
+        opacity: 1;
+      }
+
+      .section-header p {
+        display: flex;
+        /* width: 364px; */
+        /* flex-direction: column; */
+        justify-content: center;
+        color: #2F3045;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+      }
+      .section-header h2 {
+        display: flex;
+        width: 364px;
+        flex-direction: column;
+        justify-content: center;
+        color: #2F3045;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+      }
+      .streamline .section-header {
+
+        margin-bottom: 0;
+      }
+/* End Streamline CSS */
+
+img.benifit {
+  left: 15px;
+}
+
+.step-content {
+  gap: 0;
+}
+
+
+/* Start settled Claim CSS */
+
+
+.claim-settled {
+  height: auto;
+  padding: 90px 0px 0px 0px;
+}
+      
+.claim-settled-bg {
+  height: 179px;
+  top: -60px;
+}
+
+.row.claim-settled-content {
+  height: auto;
+  padding: 0;
+  justify-content: center;
+  background: #EBF1FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.row.claim-settled-content .content {
+  text-align: center;
+  color: #000;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.claim-now-btn {
+  width: 100px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+}
+.btn-claim-now span {
+  font-size: 14px;
+  line-height: 17px;
+}
+.claim-settled-body {
+  display: flex;
+  height: 676px;
+  padding-top: 56px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 65px;
+}
+.order2{
+  order: 2 !important;
+}
+.info-grid {
+  gap: 62px;
+}
+.claim-settled-body img {
+  position: relative;
+  top: 0;
+}
+
+/* End settled Claim CSS */
+
+.network-bg {
+  height: auto;
+  background-image: url('../img/images/network-bg.png');
+  background-color: #FDB9B4;
+  display: flex;
+  padding-top: 20.531px;
+  justify-content: center;
+  align-items: center;
+}
+.network-content {
+  width: 364px;
+  height: 360px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border-right: 8px solid rgba(47, 48, 69, 0.40);
+  border-bottom: 8px solid rgba(47, 48, 69, 0.40);
+  background: #FFF;
+  top: 40px;
+  position: relative;
+  left: 0;
+}
+.content-network {
+  align-items: flex-start;
+  gap: 20px;
+  display: flex;
+  width: 320px;
+  flex-direction: column;
+  color: #000;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.netword-of-hospital {
+  height: auto;
+}
+
+.col-lg-9.d-flex.flex-column.justify-content-center.aos-init.aos-animate {
+  order: 2;
+}
+.col-lg-3.d-flex.align-items-center.aos-init.aos-animate img {
+  width: 325px;
+height: 360px;
+margin-bottom:10px;
+}
+section.unlock-benift {
+  height: calc(77vh - 72px);
+}
+
+.step-content h4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  color: #2F3045;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.step-content p {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  color: #2F3045;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.step-icon img {
+
+  width: 100px;
+  height: 100px;
+}
+.step-icon {
+  width: 100%;
+  height: 125px;
+}
+.step-row {
+  display: block;
+  text-align: center;
+}
+
+.simple-step-gap h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #2F3045;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+
+.text-center.center-content {
+  display: flex;
+  width: 350px;
+  height: 204px;
+  padding: 120px 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  border-top: 1px solid rgba(47, 48, 69, 0.60);
+  border-right: 8px solid rgba(47, 48, 69, 0.60);
+  border-bottom: 8px solid rgba(47, 48, 69, 0.60);
+  border-left: 1px solid rgba(47, 48, 69, 0.60);
+  background: #FFF;
+  left: 40px;
+}
+.center-content h3 {
+  display: flex;
+  width: 220px;
+  height: 158px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #2F3045;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.text-right.right-img {
+  text-align: center !important;
+}
+.right-img img {
+  width: 211.896px;
+  height: 200px;
+}
+.text-left.left-img img {
+  width: 278.203px;
+  height: 200px;
+}
+.text-left.left-img {
+  text-align: center !important;
+}
+.center-content h3 span {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.owl-carousel-slider-mob{
+  display: block !important;
+}
+.owl-carousel-slider{
+  display: none !important;
+}
+
+.review-head {
+  justify-content: center;
+  gap: 68px;
+  text-align: center;
+}
+.review-head h3 {
+  color: #2F3045;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.arrow-row {
+  display: none;
+}
+
+
+.navbar-mobile ul {
+
+  padding: 30px 15px;
+}
+.navbar a, .navbar a:focus {
+  margin: 15px;
+}
+.navbar .getstarted, .navbar .getstarted:focus {
+    justify-content: center;
+}
+.owl-review-slider-mob{
+  display: block !important;
+}
+.owl-review-slider{
+  display: none !important;
+}
+
+.review-body {
+  padding: 10px;
+  width: 350px;
+  height: 311px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border-right: 8px solid rgba(47, 48, 69, 0.60);
+  border-bottom: 8px solid rgba(47, 48, 69, 0.60);
+  background: #FFF;
+  box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.16);
+}
+.review-body .review-content h3 {
+  display: flex;
+  width: 318px;
+  height: 29px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: var(--primary-2, #476BC7);
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.review-body .review-content p {
+  display: flex;
+  width: 318px;
+  height: 149px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #2F3045;
+  font-family: Mulish;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+}
+.owl-review-slider-mob {
+  display: block !important;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.join-us-dot-border h4 ,.join-us-dot-border h3 {
+  font-size: 30px;
+}
+.faq .section-header p {
+  font-size: 25px;
+  }
+  .leaf-img img {
+    width: 45px;
+  }
+  .col-lg-6.d-flex.flex-column.justify-content-center.test-banner {
+    height: 350px;
+  }
+  .banner .test-banner {
+    background-size: 85%;
+    background-position-y: 100%;
+  }
+
+  .hero .hero-img {
+    text-align: center;
+    margin-top: 10px;
+  }
+  #hero .carousel-item {
+    height: auto;
+  }
+
+}
