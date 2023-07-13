@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../src/assets/css/style.css'
-import '../../src/assets/css/industry.css'
+// import '../../src/assets/css/industry.css'
 import '../../src/assets/css/main.css'
 import '../../src/assets/css/responsive.css'
 // import '../../src/assets/css/scrolleffect.css'
@@ -59,7 +59,7 @@ function Home() {
               </a>
               <nav id="navbar" className="navbar">
                 <ul>
-                  
+                
                   <li><a className="nav-link scrollto" href="#contact">Claim Now</a></li>
                 </ul>
                 <i className="bi bi-list mobile-nav-toggle" />
@@ -181,9 +181,9 @@ function Home() {
             {/* ======= About Section ======= */}
             <section className="card-slider">
               <div className="container">
-                <div id="carouselCard" className="carousel1 slide1" data-ride="carousel1">
-                  <div className="carousel-inner1">
-                    <div className="carousel-item1 px-4 active">
+                <div id="carouselCard" className="carousel slide" data-ride="carousel">
+                  <div className="carousel-inner">
+                    <div className="carousel-item px-4 active">
                       <div className="row card-layout">
                         <div className="col-lg-4 card-body-layout">
                           <div className="row">
